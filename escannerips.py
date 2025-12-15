@@ -21,4 +21,4 @@ def escanear_puertos_nmap(ip_objetivo, puertos='1-1024'):
 if __name__ == '__main__':
     print("Iniciando escaneo de puertos...")
     # Reemplaza '192.168.1.1' con una IP de tu red
-    escanear_puertos_nmap('192.168.110.1', '22-80') 
+    escanear_puertos_nmap('192.168.110.1', '10-100') 
